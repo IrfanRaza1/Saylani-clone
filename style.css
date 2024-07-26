@@ -298,6 +298,8 @@ nav ul ul li a:hover {
 
 /* Syed Hassan hussain CSS code section end */
 
+
+
 /* saad section start */
 
 #adjuestment {
@@ -1057,7 +1059,7 @@ input {
 
 .subscribe-section {
   width: 100%;
-  max-width: 1540px;
+  max-width: 1550px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1065,13 +1067,12 @@ input {
   background-repeat: no-repeat;
   background-color: #0060c7e5;
   background-size: cover;
-  padding: 40px 20px;
   margin-bottom: 90px;
 }
 
 .subscribe-section1 {
   width: 100%;
-  max-width: 600px;
+  max-width: 800px;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
@@ -1240,6 +1241,31 @@ hr {
 
 /* Media Queries section */
 
+@media (min-width: 1200px){
+
+  .main {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .main1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(Data/14.png);
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: 1450px;
+    background-position-x: 30px;
+    background-position-y: 30px;
+    width: 100%;
+    max-width: 1550px;
+    padding: 20px 0px;
+    margin: 0 50px;
+  }
+
+}
+
 @media (max-width: 1200px) {
   nav ul {
     gap: 10px;
@@ -1259,11 +1285,26 @@ hr {
 
   .welcome p {
     width: 100%;
-    max-width: 550px;
+    max-width: 500px;
   }
   .image-circle img {
     width: 400px;
     right: 40px;
+  }
+ 
+  .main1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(Data/14.png);
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: 1300px;
+    background-position-x: 30px;
+    background-position-y: 30px;
+    width: 95%;
+    max-width: 1200px;
+    padding: 20px 0px;
   }
   .box1 {
     display: flex;
@@ -1288,15 +1329,9 @@ hr {
     border-top-left-radius: 60px;
   }
 
-  .footer {
-    height: 400px;
-    padding: 100px 70px;
-    background-size: 3500px;
-  }
 
   .container1 {
-    align-items: center;
-    margin-top: -150px;
+    align-items: start;
     margin-bottom: 10px;
     left: 25px;
     gap: 50px;
@@ -1330,12 +1365,24 @@ hr {
     justify-content: end;
     font-size: 8px;
   }
+  
   .main1 {
-    background-size: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(Data/14.png);
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: 1300px;
+    background-position-x: 30px;
+    background-position-y: 30px;
+    width: 95%;
+    max-width: 1000px;
+    padding: 20px 0px;
   }
   .welcome p {
     width: 100%;
-    max-width: 400px;
+    max-width: 450px;
   }
   .image-circle img {
     width: 400px;
@@ -1426,6 +1473,7 @@ hr {
   }
 
   .main1 {
+    width: 100%;
     flex-direction: column;
     background-size: 800px;
     background-position: center;
